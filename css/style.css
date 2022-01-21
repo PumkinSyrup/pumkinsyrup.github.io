@@ -1,0 +1,186 @@
+html{
+background-color: #EFBC9B;
+}
+
+/* all around */
+.site{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+div{
+  background-color: #EFBC9B;
+}
+.navlink{
+    background-color: #EFBC9B;
+    display:flex;
+    padding:1rem;
+    flex-flow:row wrap;
+    justify-content:center;
+    gap:2rem;
+
+}
+.nv{
+  background-color: #530F66;
+  color:white;
+  width:110px;
+  border-radius: 20px;
+}
+.nv:hover{
+  background-color:#741C8D;
+  color:white;
+  text-decoration: none;
+  transform:scale(1.15);
+}
+footer{
+  background-color: #530F66;
+}
+h1{
+  color:white;
+  height: 150px;
+  padding: 50px;
+  font-family: 'Gochi Hand', cursive;
+  text-shadow: 2px 2px 5px #62408B;
+}
+.fab{
+  color:white;
+}
+h3{
+  font-family: 'Rokkitt', serif;
+  font-size: 40px;
+}
+h4,h5{
+  font-family: 'Rokkitt', serif;
+  font-weight: bold;
+}
+p, a, li{
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* end of all around */
+
+/* HOME */
+.site{
+  background-image:url("../images/coverimg.jpg");
+  object-fit: fill;
+}
+
+.home{
+  padding-top:100px;
+  padding-bottom: 20px;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+.sts{
+  width:250px;
+}
+
+/* end of home */
+
+/* GALLERY */
+.galimg:hover{
+  transform:scale(1.15);
+}
+.row{
+  width: 100%;
+  margin: 0;
+}
+.digital{
+  padding-top:50px;
+  padding-left: 100px;
+  padding-right: 50px;
+
+}
+.concept{
+  padding-top:50px;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+.fanart{
+  padding-top:50px;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+.threed{
+  padding-top:50px;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+.paper{
+  padding-top:50px;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+img{
+   max-width: 100%; /*sets height of all img */
+}
+
+/* end of gallery */
+
+/* RESUME */
+.resume{
+  padding-top:100px;
+  padding-bottom: 20px;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+.resumelnk{
+  color:black;
+}
+.resumelnk:hover{
+  color:#954C18;
+}
+.li{
+  width:250px;
+}
+/* end of resume */
+
+/* ABOUT */
+.aboutme{
+  padding-left: 200px;
+}
+.about{
+  padding-top: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.portrait{
+  max-width: 100%;
+  align-items: center;
+}
+/* end of About me css */
+
+/* FACTS */
+.facts{
+  padding-top: 100px;
+}
+/* end of fun facts */
+
+@media screen and (max-width:  576px) {
+  /* WELCOME */
+  .home{
+
+  }
+    .welcome {
+        display: none;
+       }
+       .eximg{
+         display: none;
+       }
+       .status{
+         padding-left:0;
+       }
+       li{
+          width:250px;
+       }
+       /* end of WELCOME */
+
+       /* RESUME */
+       .resume{
+         display: ;
+       }
+       /* end of RESUME */
+
+}
