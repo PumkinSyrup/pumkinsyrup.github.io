@@ -104,6 +104,9 @@ color:white;
 border-radius: 20px;
 
 }
+.galnavli:hover{
+  color:white;}
+
 .galimg:hover{
   transform:scale(1.15);
 }
