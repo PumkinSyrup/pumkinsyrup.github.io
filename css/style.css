@@ -3,6 +3,9 @@ background-color: #EFBC9B;
 }
 
 /* all around */
+.hidden{
+  display: none;
+}
 .site{
     display: flex;
     align-items: center;
@@ -45,7 +48,7 @@ h1{
   text-shadow: 2px 2px 5px #62408B;
 }
 .fab{
-  color:white;
+  color:#FFBEA6;
 }
 h3{
   font-family: 'Rokkitt', serif;
@@ -59,6 +62,9 @@ p, a, li{
   font-family: 'Roboto Mono', monospace;
 }
 
+span{
+  color:white;
+}
 /* end of all around */
 
 /* HOME */
@@ -80,6 +86,21 @@ p, a, li{
 /* end of home */
 
 /* GALLERY */
+.galnav{
+  background-color: #EFBC9B;
+  display:flex;
+  padding:1rem;
+  flex-flow:row wrap;
+  justify-content:center;
+  gap:2rem;
+  font-size: 10px;
+}
+.galnavli{
+  background-color: #530F66;
+color:white;
+border-radius: 20px;
+
+}
 .galimg:hover{
   transform:scale(1.15);
 }
