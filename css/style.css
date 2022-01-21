@@ -40,6 +40,9 @@ div{
 footer{
   background-color: #530F66;
 }
+
+.ft{
+  color:black}
 h1{
   color:white;
   height: 150px;
@@ -48,7 +51,7 @@ h1{
   text-shadow: 2px 2px 5px #62408B;
 }
 .fab{
-  color:#FFBEA6;
+  color:#530F66;
 }
 h3{
   font-family: 'Rokkitt', serif;
